@@ -24,3 +24,7 @@ The "Spell Checker" uses a Red-Black Tree to efficiently store and search for wo
 
 
 To find suggestions for misspelled words, the application calculates the Levenshtein distance between the misspelled word and each word in the dictionary. Levenshtein distance measures the number of single-character edits (insertions, deletions, or substitutions) required to transform one string into another. Words with a Levenshtein distance within a specified threshold are suggested as corrections.
+
+## Dictionary File
+
+The dictionary of correctly spelled words is loaded from a file named "file_name.txt." The file should contain one word per line, with no leading or trailing whitespaces.
